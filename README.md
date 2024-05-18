@@ -21,8 +21,8 @@ _Please read the instructions carefully in order to run the MATLAB simulations a
   * RectangularRoom.m
   * RectangularTunnel.m
     
-  The names of the scripts are also self explanatory in terms of which script belongs to which environment.
-
+  The names of the scripts are also self explanatory in terms of which script belongs to which environment. Make sure that each of these files, if results are to be played with as in the paper, are located in the MATLAB folder directory which the program accesses by default. Creating sub-folders for the maps and the scripts will cause errors in loading within the scripts, and will require additional path information for the relative parameters.
+  
 + Usage Details
   
   Each script will be commented and split up into sections describing the exact purpose of running that section. Additional experimentation in the existing scripts must be done in different sections, and the relevant previous sections must be run accordingly for the newer ones as desired. If further details are needed for a function the use of browsers, right-click the function name in any section and select `Help on "function name"`. It is necessary that the scripts are run sequentially, by `Run Section` or `Run and Advance` within any section currently selected, to avoid confusion and errors in loading the parameters as the logical order of the simulation is to be followed.
